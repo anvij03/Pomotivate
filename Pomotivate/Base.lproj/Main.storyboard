@@ -560,10 +560,6 @@
                                     <segue destination="qXf-6O-KFm" kind="show" id="7dX-Ou-fMF"/>
                                 </connections>
                             </button>
-                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="IOJ-4Q-vsE">
-                                <rect key="frame" x="-20" y="429" width="414" height="162"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            </datePicker>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="N2M-zg-2HS"/>
                         <color key="backgroundColor" red="0.88235294119999996" green="0.83921568629999999" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -925,15 +921,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ont-RQ-MFS">
-                                <rect key="frame" x="87" y="414" width="240" height="240"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.88235294119999996" green="0.83921568629999999" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="15"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JTy-Aj-r6Z">
                                 <rect key="frame" x="46" y="778" width="100" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -946,6 +933,15 @@
                                     <segue destination="Z4F-ux-LJi" kind="show" id="f8Z-Tk-EPC"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ont-RQ-MFS">
+                                <rect key="frame" x="87" y="390" width="240" height="365.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88235294119999996" green="0.83921568629999999" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Van is from Hayward, CA, and will be entering her first year at UC Berkeley this fall. Van plans to double major in bioengineering and computer science. She hopes to explore the intersection of science and technology to promote inclusivity and accessibility in healthcare. Outside of her academics, Van likes to crochet, call friends, and go shopping. Her interests includes math, the color pink, boba, lashes, and stuffed animals :))</string>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vbV-hj-hGu"/>
                         <color key="backgroundColor" red="0.88235294119999996" green="0.83921568629999999" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1000,7 +996,7 @@
                                 <rect key="frame" x="87" y="352" width="240" height="418"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.88235294119999996" green="0.83921568629999999" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">I live in Seattle, WA, and am a rising sophomore at Ingraham high school. I got into coding when I did KWK 2020 Summer coding camp last year, and have been intrigued by coding since. I really wanted to build an app that helped users manage their daily activities AND help them take breaks because I was practicing bad studying habits during Covid. In addition to being very inefficient with getting work done, I felt stressed and burnt out:disappointed:. My other hobbies include playing piano and violin, reading, and playing games.</mutableString>
+                                <string key="text">I live in Seattle, WA, and am a rising sophomore at Ingraham high school. I got into coding when I did KWK 2020 Summer coding camp last year, and have been intrigued by coding since. I really wanted to build an app that helped users manage their daily activities AND help them take breaks because I was practicing bad studying habits during Covid. In addition to being very inefficient with getting work done, I felt stressed and burnt out:disappointed:. My other hobbies include playing piano and violin, reading, and playing games.</string>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1321,9 +1317,9 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Sxe-cE-lbN"/>
-        <segue reference="JFz-Aw-M1K"/>
-        <segue reference="ugQ-sb-Fa7"/>
-        <segue reference="1UN-kL-Wpj"/>
+        <segue reference="f8Z-Tk-EPC"/>
+        <segue reference="7dX-Ou-fMF"/>
+        <segue reference="uhd-ZC-jwg"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="IMG_3371" width="2591" height="3698"/>

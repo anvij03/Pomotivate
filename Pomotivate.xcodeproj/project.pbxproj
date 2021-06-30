@@ -54,7 +54,6 @@
 		3CFC2BB7268A4B5A00E68442 = {
 			isa = PBXGroup;
 			children = (
-				3C6AFA45268CF0DC002B2647 /* breakViewController.swift */,
 				3CFC2BC2268A4B5A00E68442 /* Pomotivate */,
 				3CFC2BC1268A4B5A00E68442 /* Products */,
 			);
@@ -71,6 +70,7 @@
 		3CFC2BC2268A4B5A00E68442 /* Pomotivate */ = {
 			isa = PBXGroup;
 			children = (
+				3C6AFA45268CF0DC002B2647 /* breakViewController.swift */,
 				3CFC2BC3268A4B5A00E68442 /* AppDelegate.swift */,
 				3CFC2BC5268A4B5A00E68442 /* SceneDelegate.swift */,
 				3CFC2BC7268A4B5A00E68442 /* ViewController.swift */,

@@ -1,8 +1,17 @@
+//
+//  WeeklyViewController.swift
+//  Pomotivate
+//
+//  Created by  Scholar on 6/30/21.
+//
+
 import UIKit
 
-var selectedDateandTime = Date()
+var selectedDate = Date()
 
-class weeklyViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UITableViewDelegate, UITableViewDataSource
+
+
+class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UITableViewDelegate, UITableViewDataSource
     
 {
     
@@ -10,7 +19,6 @@ class weeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var collectionView: UICollectionView!
     
-    @IBOutlet weak var backgroundWeeklyView: UIView!
     
     var totalSquares = [Date]()
     

@@ -24,20 +24,5 @@ class ViewController: UIViewController {
         let randomQuote = quotes.randomElement()!
         return randomQuote
     }
-    
-    @IBAction func addEventTaskButton(_ sender: UIButton) {
-    }
-    
-    @IBAction func upcomingButton(_ sender: UIButton) {
-    }
-    
-    @IBAction func takeABreakButton(_ sender: UIButton) {
-    }
-    
-    @IBAction func resourcesButton(_ sender: UIButton) {
-    }
-    
-    @IBAction func aboutUsButton(_ sender: UIButton) {
-    }
 }
 

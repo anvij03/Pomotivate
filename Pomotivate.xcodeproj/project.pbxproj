@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C6AFA46268CF0DC002B2647 /* breakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6AFA45268CF0DC002B2647 /* breakViewController.swift */; };
 		3CFC2BC4268A4B5A00E68442 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFC2BC3268A4B5A00E68442 /* AppDelegate.swift */; };
 		3CFC2BC6268A4B5A00E68442 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFC2BC5268A4B5A00E68442 /* SceneDelegate.swift */; };
 		3CFC2BC8268A4B5A00E68442 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFC2BC7268A4B5A00E68442 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C6AFA45268CF0DC002B2647 /* breakViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breakViewController.swift; sourceTree = "<group>"; };
 		3CFC2BC0268A4B5A00E68442 /* Pomotivate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pomotivate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CFC2BC3268A4B5A00E68442 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CFC2BC5268A4B5A00E68442 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		3CFC2BB7268A4B5A00E68442 = {
 			isa = PBXGroup;
 			children = (
+				3C6AFA45268CF0DC002B2647 /* breakViewController.swift */,
 				3CFC2BC2268A4B5A00E68442 /* Pomotivate */,
 				3CFC2BC1268A4B5A00E68442 /* Products */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C6AFA46268CF0DC002B2647 /* breakViewController.swift in Sources */,
 				3CFC2BC8268A4B5A00E68442 /* ViewController.swift in Sources */,
 				3CFC2BC4268A4B5A00E68442 /* AppDelegate.swift in Sources */,
 				3CFC2BC6268A4B5A00E68442 /* SceneDelegate.swift in Sources */,

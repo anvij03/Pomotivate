@@ -11,6 +11,9 @@ class BreakViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        minutesWorked.layer.borderColor = UIColor.white.cgColor
+        totalMinWorked.layer.borderColor = UIColor.white.cgColor
+        focusLevel.layer.borderColor = UIColor.white.cgColor
 
         // Do any additional setup after loading the view.
     }

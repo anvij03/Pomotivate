@@ -14,6 +14,8 @@ class BreakViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    //Formula for x min: (total hours * 2) + (current length * 10) + (-1*focus)
+
     
     @IBOutlet weak var minutesWorked: UITextView!
     
@@ -21,9 +23,15 @@ class BreakViewController: UIViewController {
     
     @IBOutlet weak var suggestedBreakTime: UITextView!
     
+    @IBOutlet weak var totalMinWorked: UITextView!
     
     @IBAction func caluculateButtonPressed(_ sender: Any) {
-        suggestedBreakTime.text = focusLevel.text
+        let minutes = Int(minutesWorked.text) ?? 0
+        let totalMinutes = Int(totalMinWorked.text) ?? 0
+        let focus = Int(focusLevel.text) ?? 0
+        let breakTime = minutes/6 + totalMinutes/30 - focus
+        suggestedBreakTime.text = "\(breakTime)"
+        
     }
     
     /*

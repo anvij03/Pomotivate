@@ -20,6 +20,9 @@
 		A872FD85268D080E00B2BD61 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = A872FD84268D080E00B2BD61 /* Event.swift */; };
 		A872FD89268D085B00B2BD61 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A872FD88268D085B00B2BD61 /* CalendarCell.swift */; };
 		A8B093F7268E310B003677E1 /* BreakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B093F6268E310B003677E1 /* BreakViewController.swift */; };
+		D29E4AAC268E40EE00313D76 /* GeneralAcademicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E4AAB268E40EE00313D76 /* GeneralAcademicViewController.swift */; };
+		D29E4AAE268E40FC00313D76 /* STEMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E4AAD268E40FC00313D76 /* STEMViewController.swift */; };
+		D29E4AB0268E410700313D76 /* MentalHealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E4AAF268E410700313D76 /* MentalHealthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		A872FD84268D080E00B2BD61 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		A872FD88268D085B00B2BD61 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 		A8B093F6268E310B003677E1 /* BreakViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakViewController.swift; sourceTree = "<group>"; };
+		D29E4AAB268E40EE00313D76 /* GeneralAcademicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralAcademicViewController.swift; sourceTree = "<group>"; };
+		D29E4AAD268E40FC00313D76 /* STEMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEMViewController.swift; sourceTree = "<group>"; };
+		D29E4AAF268E410700313D76 /* MentalHealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,9 @@
 				A872FD82268D07EC00B2BD61 /* EventCell.swift */,
 				A872FD88268D085B00B2BD61 /* CalendarCell.swift */,
 				A8B093F6268E310B003677E1 /* BreakViewController.swift */,
+				D29E4AAB268E40EE00313D76 /* GeneralAcademicViewController.swift */,
+				D29E4AAD268E40FC00313D76 /* STEMViewController.swift */,
+				D29E4AAF268E410700313D76 /* MentalHealthViewController.swift */,
 			);
 			path = Pomotivate;
 			sourceTree = "<group>";
@@ -159,12 +168,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A872FD85268D080E00B2BD61 /* Event.swift in Sources */,
+				D29E4AB0268E410700313D76 /* MentalHealthViewController.swift in Sources */,
 				A872FD81268D07D600B2BD61 /* EventEditViewController.swift in Sources */,
 				A872FD7F268D07B300B2BD61 /* CalendarHelper.swift in Sources */,
+				D29E4AAE268E40FC00313D76 /* STEMViewController.swift in Sources */,
 				3CFC2BC8268A4B5A00E68442 /* ViewController.swift in Sources */,
 				A872FD83268D07EC00B2BD61 /* EventCell.swift in Sources */,
 				A872FD89268D085B00B2BD61 /* CalendarCell.swift in Sources */,
 				A8B093F7268E310B003677E1 /* BreakViewController.swift in Sources */,
+				D29E4AAC268E40EE00313D76 /* GeneralAcademicViewController.swift in Sources */,
 				3CFC2BC4268A4B5A00E68442 /* AppDelegate.swift in Sources */,
 				A872FD7D268D077F00B2BD61 /* WeeklyViewController.swift in Sources */,
 				3CFC2BC6268A4B5A00E68442 /* SceneDelegate.swift in Sources */,

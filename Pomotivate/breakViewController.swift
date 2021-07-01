@@ -1,5 +1,13 @@
 import UIKit
 
+
+
+
+
+
+
+
+/*
 var selectedDateandTime = Date()
 
 class weeklyViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UITableViewDelegate, UITableViewDataSource
@@ -118,4 +126,4 @@ class weeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
         tableView.reloadData()
     }
 }
-
+*/

@@ -58,23 +58,6 @@
                                     <segue destination="Yy7-Za-nf5" kind="show" id="ed0-91-tmZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NzE-fE-cCx">
-                                <rect key="frame" x="97" y="525" width="220" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.031372549020000001" green="0.35686274509999999" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
-                                <state key="normal" title="take a break">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="25"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="SkD-LD-wpx" kind="show" id="hps-P3-Kdr"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SdG-Ne-cQw">
                                 <rect key="frame" x="97" y="625" width="220" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -123,6 +106,23 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rQC-dT-hNm">
+                                <rect key="frame" x="97" y="519" width="220" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.031372549020000001" green="0.35686274509999999" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
+                                <state key="normal" title="Break">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="SkD-LD-wpx" kind="show" id="75q-TV-zEz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.88235294117647056" green="0.83921568627450982" blue="0.70196078431372544" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -199,7 +199,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2bF-HQ-wrx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="757" y="-558"/>
+            <point key="canvasLocation" x="749" y="-584"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jvK-Mu-5UX">
@@ -323,7 +323,7 @@
         <!--Break View Controller-->
         <scene sceneID="JRj-LF-aoz">
             <objects>
-                <viewController id="SkD-LD-wpx" customClass="breakViewController" customModule="Pomotivate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="SkD-LD-wpx" customClass="BreakViewController" customModule="Pomotivate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4mo-de-Nx3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -340,22 +340,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Screen Shot 2021-06-28 at 11.53.14 AM"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="Gc3-P6-8h5"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Nav-yh-yb2"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="d3b-DR-jwf">
-                                <rect key="frame" x="51" y="245" width="313" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.67450980390000004" green="0.71372549019999998" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="40"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="CrW-lU-Hvn">
                                 <rect key="frame" x="51" y="693" width="313" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -411,24 +398,31 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="calculateButton:" destination="SkD-LD-wpx" eventType="touchUpInside" id="Xcj-rM-IA7"/>
+                                    <action selector="caluculateButtonPressed:" destination="SkD-LD-wpx" eventType="touchUpInside" id="vY6-oW-t0C"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="How manh minutes worked" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="EdM-N3-AV4">
+                                <rect key="frame" x="46" y="262" width="312" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.67450980390000004" green="0.71372549019999998" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kk9-s5-m69"/>
                         <color key="backgroundColor" red="0.88235294119999996" green="0.83921568629999999" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="wMw-J1-xDQ"/>
                     <connections>
-                        <outlet property="breakLabel" destination="BNl-fH-27T" id="1hu-DJ-Hdi"/>
-                        <outlet property="breakTimeTextView" destination="CrW-lU-Hvn" id="ZcW-Eg-bHP"/>
-                        <outlet property="focusTextView" destination="DWe-CC-6SF" id="U6U-Qq-l7O"/>
-                        <outlet property="timeWorkedTextView" destination="d3b-DR-jwf" id="XIJ-Cq-EwB"/>
+                        <outlet property="focusLevel" destination="DWe-CC-6SF" id="kHZ-Ud-XVc"/>
+                        <outlet property="minutesWorked" destination="EdM-N3-AV4" id="JEF-yw-ruB"/>
+                        <outlet property="suggestedBreakTime" destination="CrW-lU-Hvn" id="8be-Kz-Iwy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xwK-b6-4Ce" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1388.4057971014495" y="756.69642857142856"/>
+            <point key="canvasLocation" x="-642" y="841"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="MVP-9G-u0A">
@@ -988,7 +982,7 @@
                                 <rect key="frame" x="71" y="398" width="276" height="372"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.88235294119999996" green="0.83921568629999999" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">Freya lives in Seattle, WA, and is a rising sophomore at Ingraham high school. She got into coding when she did KWK last year, and has been intrigued by coding since. Freya really wanted to build an app that helped users manage their daily activities AND help them take breaks because she was practicing bad studying habits during Covid. In addition to being very inefficient with getting work done, Freya also felt stressed and burnt out. Her other hobbies include playing piano and violin, reading, and playing games.</mutableString>
+                                <string key="text">Freya lives in Seattle, WA, and is a rising sophomore at Ingraham high school. She got into coding when she did KWK last year, and has been intrigued by coding since. Freya really wanted to build an app that helped users manage their daily activities AND help them take breaks because she was practicing bad studying habits during Covid. In addition to being very inefficient with getting work done, Freya also felt stressed and burnt out. Her other hobbies include playing piano and violin, reading, and playing games.</string>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1117,7 +1111,7 @@
                                         </collectionViewCellContentView>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
-                                            <outlet property="dayOfMonth" destination="zTn-qZ-YBg" id="Q0G-II-Npq"/>
+                                            <outlet property="dayOfMonth" destination="zTn-qZ-YBg" id="9bp-GR-mca"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -1173,7 +1167,7 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.67450980390000004" green="0.72156862749999995" blue="0.52549019610000003" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
-                                            <outlet property="eventLabel" destination="XFi-5z-fGU" id="Ozp-Uo-33m"/>
+                                            <outlet property="eventLabel" destination="XFi-5z-fGU" id="Aev-yD-ec8"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -1295,9 +1289,6 @@
                                 <rect key="frame" x="302" y="7" width="92" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Save"/>
-                                <connections>
-                                    <action selector="saveAction:" destination="VJV-cg-50n" eventType="touchUpInside" id="7aS-cC-eSF"/>
-                                </connections>
                             </button>
                         </barButtonItem>
                     </navigationItem>
@@ -1315,10 +1306,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="MzF-6z-krA"/>
-        <segue reference="JFz-Aw-M1K"/>
+        <segue reference="Sxe-cE-lbN"/>
+        <segue reference="Xmq-Li-ejc"/>
         <segue reference="ugQ-sb-Fa7"/>
-        <segue reference="Gc3-P6-8h5"/>
+        <segue reference="Nav-yh-yb2"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Freya" width="1114" height="1024"/>

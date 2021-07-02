@@ -11,12 +11,17 @@ class breakIdeaViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        lengthOfBreak.layer.borderColor = UIColor.white.cgColor
 
         // Do any additional setup after loading the view.
     }
     
-    
+    // outlets
     @IBOutlet weak var lengthOfBreak: UITextField!
+    @IBOutlet weak var suggestionLabel: UILabel!
+    @IBOutlet weak var breakIdeaTextView: UITextView!
+    
+    
     //10 or less
     let break1 = ["stretch","yoga","wash your face","grab a snack","listen to a song", "look out a window", "meditate", "drink coffee"]
     //10-30minites
@@ -24,8 +29,8 @@ class breakIdeaViewController: UIViewController {
     //30 and up
     let break3 = ["take a nap", "take a shower", "exercise", "walk with dog", "watch an episode of TV", "read"]
     
-    @IBOutlet weak var breakIdeaTextView: UITextView!
     
+    //generate break idea based on input
     @IBAction func displayIdeas(_ sender: Any) {
         var breakLength: Int = 0
         if let length = lengthOfBreak.text{
@@ -42,6 +47,10 @@ class breakIdeaViewController: UIViewController {
             randomActivity = break3.randomElement()!
         }
         breakIdeaTextView.text = "\(randomActivity)"
+        
+        //shows output
+        breakIdeaTextView.isHidden = false
+        suggestionLabel.isHidden = false
     }
     
     

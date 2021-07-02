@@ -11,15 +11,16 @@ class BreakViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        //add border colors
         minutesWorked.layer.borderColor = UIColor.white.cgColor
         totalMinWorked.layer.borderColor = UIColor.white.cgColor
         focusLevel.layer.borderColor = UIColor.white.cgColor
 
-        // Do any additional setup after loading the view.
+
     }
     //Formula for x min: (total hours * 2) + (current length * 10) + (-1*focus)
 
-    
+    //outlets
     @IBOutlet weak var minutesWorked: UITextView!
     
     @IBOutlet weak var focusLevel: UITextView!
@@ -28,12 +29,17 @@ class BreakViewController: UIViewController {
     
     @IBOutlet weak var totalMinWorked: UITextView!
     
+    
+    
+    //calculate break time based on inputs
     @IBAction func caluculateButtonPressed(_ sender: Any) {
         let minutes = Int(minutesWorked.text) ?? 0
         let totalMinutes = Int(totalMinWorked.text) ?? 0
         let focus = Int(focusLevel.text) ?? 0
         let breakTime = minutes/6 + totalMinutes/30 - focus
-        suggestedBreakTime.text = "\(breakTime)"
+        suggestedBreakTime.text = "\(breakTime) minutes"
+        
+        //show output
         
     }
     

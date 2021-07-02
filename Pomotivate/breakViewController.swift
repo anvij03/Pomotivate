@@ -7,7 +7,7 @@
 
 import UIKit
 
-class BreakViewController: UIViewController {
+class breakViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +18,10 @@ class BreakViewController: UIViewController {
 
 
     }
+    
+    
+    @IBOutlet weak var text: UILabel!
+    
     //Formula for x min: (total hours * 2) + (current length * 10) + (-1*focus)
 
     //outlets
@@ -29,6 +33,7 @@ class BreakViewController: UIViewController {
     
     @IBOutlet weak var totalMinWorked: UITextView!
     
+    @IBOutlet weak var ideasButton: UIButton!
     
     
     //calculate break time based on inputs
@@ -40,6 +45,10 @@ class BreakViewController: UIViewController {
         suggestedBreakTime.text = "\(breakTime) minutes"
         
         //show output
+        text.isHidden = false
+        suggestedBreakTime.isHidden = false
+        ideasButton.isHidden = false
+        
         
     }
     

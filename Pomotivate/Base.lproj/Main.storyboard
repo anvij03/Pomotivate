@@ -634,9 +634,9 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4eC-Kx-LBZ">
                                 <rect key="frame" x="57" y="446" width="300" height="240"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.88235294119999996" green="0.83921568629999999" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.67450980390000004" green="0.71372549019999998" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Anvi is a rising college freshman based in Phoenix, Arizona. In the upcoming academic year, she plans to attend Carnegie Mellon University to pursue a degree in Computer Science. Outside of coding, she likes to paint, swim, and bake.</string>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -765,9 +765,9 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="X9E-YO-jbD">
                                 <rect key="frame" x="57" y="408" width="300" height="336"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.67450980390000004" green="0.71372549019999998" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Freya lives in Seattle, WA, and is a rising sophomore at Ingraham high school. She got into coding when she did KWK last year, and has been intrigued by coding since. Freya really wanted to build an app that helped users manage their daily activities AND help them take breaks because she was practicing bad studying habits during Covid. In addition to being very inefficient with getting work done, Freya also felt stressed and burnt out. Her other hobbies include playing piano and violin, reading, and playing games.</string>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <userDefinedRuntimeAttributes>
@@ -1451,12 +1451,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="JXx-c7-kjI"/>
         <segue reference="6hM-kI-UET"/>
         <segue reference="V8g-3y-t41"/>
         <segue reference="KWi-xp-A53"/>
         <segue reference="6A9-cd-9QX"/>
-        <segue reference="79h-OY-gKz"/>
+        <segue reference="Wn4-pD-he9"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Freya" width="1114" height="1024"/>
